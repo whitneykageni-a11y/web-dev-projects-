@@ -7,6 +7,7 @@ Each project focuses on improving specific skills such as DOM manipulation, even
 ## Projects Included
 - To-Do List App – task management using DOM manipulation and localStorage
 - Quiz App – interactive quiz with dynamic questions, score tracking, and restart functionality
+- Weather App - a simple weather application that fetches real-time weather data using the OpenWeather API.
 
 ## Technologies Used
 - HTML
