@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        WEATHER APP
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <input type="text" id="cityInput" label="cityInput" placeholder="Enter city">
+        <h1></h1>
+        <button id="searchBtn">Search</button>
+    </header>
+    <main>
+        <div class="weather-card" id="temp-card">
+            <p id="temperature"></p>
+            <p>🌡️</p>
+        </div>
+        <div class="weather-card" id="humidity-card">
+            <p id="humidity"></p>
+            <p>💧</p>
+        </div>
+        <div class="weather-card" id="wind-card">
+            <p id="wind"></p>
+            <p>🌬️</p>
+        </div>
+        <div class="weather-card" id="condition-card">
+            <p id="condition"></p>
+            <p id="conditionEmoji"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
